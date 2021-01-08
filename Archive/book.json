@@ -1,0 +1,30 @@
+{
+    "title": "Eureka",
+    "description": "Eureka",
+    "author": "Eureka",
+    "language": "zh-hans",
+    "root": ".",
+
+    "plugins": [
+        "hide-element",
+        "back-to-top-button",
+        "chapter-fold",
+        "expandable-chapters",
+        "splitter",
+        "lightbox",
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "atoc"
+    ],
+
+    "pluginsConfig": {
+        "hide-element": {
+            "elements": [".gitbook-link", ".pull-right"]
+        },
+        "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        }
+    }
+}

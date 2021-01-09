@@ -1,10 +1,12 @@
-# Django 应用部署与监控
+# Django应用部署与监控
 
-## 1、部署准备
-一台云服务器，初级版（1核1G）即可，安装CentOS7.2版本操作系统，建议最好使用[阿里云](https://www.aliyun.com/)；一个已经完成[ICP备案](https://help.aliyun.com/knowledge_detail/36922.html)的域名。
+<!-- toc -->
 
-## 2、环境搭建
-### 2.1、新增用户
+## 部署准备
+一台云服务器，初级版（1核1G）即可，安装CentOS7.2版本操作系统，建议最好使用阿里云；一个已经完成ICP备案的域名。
+
+## 环境搭建
+### 新增用户
 操作CentOS服务器，最好不要使用root根用户，其一是防止误操作；其二是避免在部署的过程中出现权限相关问题。
 ```
 [yves@iZ2zefeybcvjrhsdgz4uymZ ~]$ adduser yves  # 添加yves用户
@@ -12,7 +14,7 @@
 [yves@iZ2zefeybcvjrhsdgz4uymZ ~]$ usermod -aG wheel yves  # 将yves添加到超级权限组
 ```
 
-### 2.2、Python环境
+### Python环境
 安装Python环境之前，需要在操作系统上安装必要软件并更新yum源。
 ```
 [yves@iZ2zefeybcvjrhsdgz4uymZ ~]$ sudo yum update  # 更新yum源
@@ -45,7 +47,7 @@ pip 19.3.1 from /usr/local/lib/python3.6/site-packages/pip (python 3.6)
 
 在环境变量中添加 alias sudo='sudo env PATH=$PATH' 并使其生效即可。
 
-### 2.3、MySQL数据库安装
+### MySQL数据库
 CentOS默认安装mariadb数据库，首先你需要卸载.
 ```
 [yves@iZ2zefeybcvjrhsdgz4uymZ ~]$ yum remove mariadb-libs.x86_64
@@ -114,7 +116,7 @@ mysql> update user set authentication_string = password("123456") where user = '
 [yves@iz2ze0mhixialmdhi9pn5vz ~]$ sudo service mysqld restart
 ```
 
-## 3、部署代码
+## 部署代码
 将项目代码上传到部署目录下，方法比较多，推荐使用[Git](https://www.runoob.com/git/git-basic-operations.html)进行代码版本的管理，首先需要在服务器上安装相关应用并从远程仓库拉取代码，拉取完成后修改成生产环境的配置。
 ```
 [yves@iZ2zefeybcvjrhsdgz4uymZ ~]$ sudo yum install git  # 安装git应用
@@ -128,7 +130,7 @@ mysql> update user set authentication_string = password("123456") where user = '
 ```
 服务启动后，即可以通过公网IP:8000端口访问应用，注意：务必在阿里云管理控制台放开8000端口，否则无法访问。
 
-## 4、Gunicorn安装与使用
+## Gunicorn安装
 直接使用runserver命令启动的开发服务器并不适用与生产环境，因此使用[Gunicorn](https://pypi.org/project/gunicorn/)作为生产环境服务器。
 ```
 [yves@iZ2zefeybcvjrhsdgz4uymZ ~]$ pipenv install gunicorn  # 安装gunicorn
@@ -136,7 +138,7 @@ mysql> update user set authentication_string = password("123456") where user = '
 ```
 启动服务后，即可以通过公网IP:8000端口访问应用，但此时css样式全部未加载导致页面乱的一塌糊涂，这并非bug，而是由于处理静态文件请求并不是Gunicorn擅长的事情，应该交由更专业的Nginx去做。
 
-## 5、Nginx服务器安装与使用
+## Nginx安装
 Nginx是一个高性能的HTTP和反向代理web服务器，它的功能非常多，这里主要用它来处理静态文件以及将非静态文件的请求反向代理给Gunicorn。
 ```
 [yves@iZ2zefeybcvjrhsdgz4uymZ ~]$ sudo yum install epel-release -y
@@ -181,7 +183,7 @@ server {
 ```
 配置文件新增完成之后，重启Nginx即可访问应用，至此基本完成Nginx与Gunicorn部署Django应用的目标。
 
-## 6、Supervisor安装与使用
+## Supervisor安装
 由于服务器与网络存在不稳定的情况，因此直接在控制台启动应用的方式存在宕机的风险，并且没办法对相关进程进行监控，因此使用Supervisor来管理Gunicorn进程，这样当服务器重新启动或者Gunicorn进程意外崩溃后，Supervisor会帮我们自动重启Gunicorn。
 由于Supervisor目前还不支持Python3，因此需要使用CentOS系统自带的python2版本进行安装。
 ```
@@ -225,6 +227,6 @@ supervisord -c ~/etc/supervisord.conf  # -c 表示根据配置文件启动
 supervisorctl -c ~/etc/supervisord.conf
 ```
 
-## 7、问题与解决
-### 7.1、后台管理系统图片上传报500错误
+## 问题与解决
+### 图片上传报错
 这是由于Nginx的权限问题导致的，网上大多数资料说将'Chmod 777 /media'执行就好，但是我试了不行，后来将/etc/nginx/nginx.conf中的user改成root就好了。

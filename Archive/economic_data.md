@@ -1,5 +1,15 @@
-# 经济指标查询链接
+# 经济指标查询
 ## 数据类
+
+| 表头 | 表头 | 表头 | 表头 | 表头 |
+| ---- | ---- | ---- | ---- | ---- |
+| [CPI指数 - 居民消费价格指数](http://data.eastmoney.com/cjsj/cpi.html) | [CPI指数 - 居民消费价格指数](http://data.eastmoney.com/cjsj/cpi.html) | [CPI指数 - 居民消费价格指数](http://data.eastmoney.com/cjsj/cpi.html) | [CPI指数 - 居民消费价格指数](http://data.eastmoney.com/cjsj/cpi.html) | [CPI指数 - 居民消费价格指数](http://data.eastmoney.com/cjsj/cpi.html) |
+| [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) |
+| [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) |
+| [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) |
+| [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) | [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html) |
+
+
 * [CPI指数 - 居民消费价格指数](http://data.eastmoney.com/cjsj/cpi.html)
 * [PPI指数 - 工业品出厂价格指数](http://data.eastmoney.com/cjsj/ppi.html)
 * [GDP指数 - 国内生产总值](http://data.eastmoney.com/cjsj/gdp.html)

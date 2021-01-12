@@ -5,7 +5,7 @@
 ### 技术
 
 <table>
-	<!-- <caption style="font-weight: bold;">纯CSS table表格 thead固定 tbody滚动</caption> -->
+    <!-- <caption style="font-weight: bold;">纯CSS table表格 thead固定 tbody滚动</caption> -->
     <tr>
         <td width= "100"><a title="GitHub: Where the world builds software" href="https://github.com/" target="_blank">GitHub</a></td>
         <td width= "100"><a title="Software Development and Collaboration Platform" href="https://gitee.com/" target="_blank">gitee</a></td>
@@ -18,11 +18,11 @@
         <td width= "100"><a title="七牛云" href="https://www.qiniu.com/" target="_blank">七牛云</a></td>
         <td width= "100"><a title="Mass VPS hosting on Enterprise equipment" href="https://bwh88.net/" target="_blank">搬瓦工</a></td>
         <td width= "100"><a title="Cloud Servers and Cloud Hosting" href="https://www.vultr.com/" target="_blank">Vultr</a></td>
+        <td width= "100"><a title="Web Hosting Services Crafted with Care" href="https://www.siteground.com/" target="_blank">SiteGround</a></td>        
         <td width= "100"><a title="GoDaddy" href="https://sg.godaddy.com/" target="_blank">GoDaddy</a></td>
-        <td width= "100"><a title="Auto.js" href="https://www.autojs.org/" target="_blank">Auto.js</a></td>
-        <td width= "100"><a title="按键精灵" href="http://www.anjian.com/" target="_blank">按键精灵</a></td>
+        <td width= "100"><a title="Buy domain name - Cheap domain names from $1.37" href="https://www.namecheap.com/" target="_blank">Namecheap</a></td>
     </tr>
-	<tr>
+    <tr>
         <td width= "100"><a title="八爪鱼" href="https://www.bazhuayu.com/" target="_blank">八爪鱼</a></td>
         <td width= "100"><a title="WordPress" href="https://wordpress.org/" target="_blank">WordPress</a></td>
         <td width= "100"><a title="极客时间" href="https://time.geekbang.org/" target="_blank">极客时间</a></td>
@@ -35,8 +35,12 @@
         <td width= "100"><a title="莫烦Python" href="https://mofanpy.com/" target="_blank">莫烦Python</a></td>
         <td width= "100"><a title="IPChecker" href="https://www.vps234.com/ipchecker/" target="_blank">IPChecker</a></td>
         <td width= "100"><a title="检查您自己的IP地址和DNS地址" href="https://whoer.net/zh" target="_blank">WHOER</a></td>
+        <td width= "100"><a title="Auto.js" href="https://www.autojs.org/" target="_blank">Auto.js</a></td>
+        <td width= "100"><a title="按键精灵" href="http://www.anjian.com/" target="_blank">按键精灵</a></td>
     </tr>
 </table>
+
+
 
 ### 娱乐休闲
 
@@ -152,7 +156,7 @@
     <tr>
         <td width= "100"><a title="Shopify" href="https://www.shopify.com/" target="_blank">Shopify</a></td>
         <td width= "100"><a title="ThemeForest" href="https://themeforest.net/" target="_blank">ThemeForest</a></td>
-        <td width= "100"><a title="ActiveWear" href="https://www.activewear1.com/" target="_blank">ActiveWear</a></td>
+        <td width= "100"><a title="ActiveWear" href="https://www.activewear1.com/" target="_blank">ActiveWear</a></td>    
     </tr>
 </table>
 
@@ -171,7 +175,7 @@
         <td width= "100"><a title="FedEx" href="https://www.fedex.com/zh-cn/home.html" target="_blank">FedEx</a></td>
         <td width= "100"><a title="https://www.ups.com/cn/zh/Home.page" href="" target="_blank">UPS</a></td>
         <td width= "100"><a title="企查查" href="https://www.qcc.com/" target="_blank">企查查</a></td>
-        <td width= "100"><a title="中国裁判文书网" href="https://wenshu.court.gov.cn/" target="_blank">中国裁判文书网</a></td>
+        <td width= "100"><a title="中国裁判文书网" href="https://wenshu.court.gov.cn/" target="_blank">裁判文书</a></td>
         <td width= "100"><a title="DeepL" href="https://www.deepl.com/translator" target="_blank">DeepL</a></td>
     </tr>
     <tr>
@@ -184,7 +188,7 @@
     </tr>
     <tr>
         <td width= "100"><a title="Remove Background from Image" href="https://www.remove.bg/" target="_blank">remove.bg</a></td>
-        <td width= "100"><a title="This Person Does Not Exist" href="https://thispersondoesnotexist.com/" target="_blank">Does Not Exist</a></td>
+        <td width= "100"><a title="This Person Does Not Exist" href="https://thispersondoesnotexist.com/" target="_blank">Not Exist</a></td>
         <td width= "100"><a title="Logo制作" href="http://www.uugai.com/" target="_blank">Logo制作</a></td>
         <td width= "100"><a title="字体天下" href="https://www.fonts.net.cn/" target="_blank">字体天下</a></td>
         <td width= "100"><a title="美国身份证" href="http://www.shenfendaquan.com/" target="_blank">美国身份证</a></td>

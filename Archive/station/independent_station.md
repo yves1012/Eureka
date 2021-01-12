@@ -7,7 +7,7 @@
 ## 建站的3大主流方式
 
 <div align=center>
-	<img width = '1280' height ='960' src ="./assets/ECommerce Usage.png" alt="各建站方式占比"/>
+	<img width = '1280' height ='960' src ="../assets/ECommerce Usage.png" alt="各建站方式占比"/>
 </div>
 
 三大建站方式占据了独立站市场总量的56%，至于图中展示的Other所占高达38%的原因无非就是某些平台自己开发独立站系统，比如苹果。
@@ -61,7 +61,7 @@ Shopify的特点即是简单易用。卖家不必懂得如何编程，如何设�
 商机（利基）站点的好处很多，其最核心的要点在于选品。选品的好坏也决定了站点的生命周期、销售量以及收益情况。选品并没有绝对的标准，不过我们还是习惯性的列出一些参考依据，试图在开始时就减少选品错误到来的风险，比如：
 
 <div align=center>
-	<img width = '1280' height ='960' src ="./assets/choose_product.png" alt="选品标准"/>
+	<img width = '1280' height ='960' src ="../assets/choose_product.png" alt="选品标准"/>
 </div>
 
 ## 两种主流收款方式

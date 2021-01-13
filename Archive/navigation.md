@@ -18,7 +18,7 @@
         <td width= "100"><a title="七牛云" href="https://www.qiniu.com/" target="_blank">七牛云</a></td>
         <td width= "100"><a title="Mass VPS hosting on Enterprise equipment" href="https://bwh88.net/" target="_blank">搬瓦工</a></td>
         <td width= "100"><a title="Cloud Servers and Cloud Hosting" href="https://www.vultr.com/" target="_blank">Vultr</a></td>
-        <td width= "100"><a title="Web Hosting Services Crafted with Care" href="https://www.siteground.com/" target="_blank">SiteGround</a></td>        
+        <td width= "100"><a title="Web Hosting Services Crafted with Care" href="https://www.siteground.com/" target="_blank">SiteGround</a></td>
         <td width= "100"><a title="GoDaddy" href="https://sg.godaddy.com/" target="_blank">GoDaddy</a></td>
         <td width= "100"><a title="Buy domain name - Cheap domain names from $1.37" href="https://www.namecheap.com/" target="_blank">Namecheap</a></td>
     </tr>
@@ -37,6 +37,9 @@
         <td width= "100"><a title="检查您自己的IP地址和DNS地址" href="https://whoer.net/zh" target="_blank">WHOER</a></td>
         <td width= "100"><a title="Auto.js" href="https://www.autojs.org/" target="_blank">Auto.js</a></td>
         <td width= "100"><a title="按键精灵" href="http://www.anjian.com/" target="_blank">按键精灵</a></td>
+    </tr>
+    <tr>
+        <td width= "100"><a title="CloudWays" href="http://cloudways.com/" target="_blank">CloudWays</a></td>
     </tr>
 </table>
 
@@ -165,7 +168,9 @@
 #### 收款
 <table>
     <tr>
+        <td width= "100"><a title="Payoneer" href="https://www.payoneer.com/" target="_blank">Payoneer</a></td>
         <td width= "100"><a title="PingPong" href="https://us.pingpongx.com/pns/login.htm" target="_blank">PingPong</a></td>
+        <td width= "100"><a title="PayPal" href="https://www.paypal.com/us/home" target="_blank">PayPal</a></td>
     </tr>
 </table>
 

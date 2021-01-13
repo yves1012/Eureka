@@ -2,6 +2,7 @@
 
 * [Eureka](README.md)
 * [快速导航](navigation.md)
+* [日拱一卒](insistence.md)
 * [英语学习安排](English_plan.md)
 * [跨境电商独立站]()
 	* [多维度解读跨境电商独立站](station/independent_station.md)

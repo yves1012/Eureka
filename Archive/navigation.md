@@ -40,6 +40,7 @@
     </tr>
     <tr>
         <td width= "100"><a title="CloudWays" href="http://cloudways.com/" target="_blank">CloudWays</a></td>
+        <td width= "100"><a title="Namecheap" href="https://www.namecheap.com/" target="_blank">Namecheap</a></td>
     </tr>
 </table>
 

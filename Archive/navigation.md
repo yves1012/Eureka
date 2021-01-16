@@ -150,7 +150,10 @@
         <td width= "100"><a title="聚评论" href="https://www.jupinglun.com/" target="_blank">聚评论</a></td>
         <td width= "100"><a title="海关编码" href="https://www.hsbianma.com/" target="_blank">海关编码</a></td>
         <td width= "100"><a title="Marketplace Pulse" href="https://www.marketplacepulse.com/" target="_blank">Pulse</a></td>
-    </tr>    
+    </tr>
+    <tr>
+        <td width= "100"><a title="知无不言" href="https://www.wearesellers.com/" target="_blank">知无不言</a></td>
+    </tr>
 </table>
 
 #### 独立站

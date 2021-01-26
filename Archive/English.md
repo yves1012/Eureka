@@ -4,6 +4,12 @@
 
 现在的最大的问题就是听不懂，尤其不大明白native speaker说的内容，至于阅读与写作倒是马马虎虎，因而下定决心要好好增强下自己的听力与口语能力。以前用的一些方法，例如泛听等等都不大奏效，近来发现一个比较好的成功案例，下决心实践一下。
 
+## 练习素材
+
+<div align=center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/9cGXFoYjru8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## 练习方法
 
 [YouZack英语听力逐句精听](https://www.youzack.com/)
@@ -24,3 +30,5 @@
 > 记录听力练习过程中发现的不认识的单词俚语或者语法现象
 
 <!-- 时间 词语 释义    记录听力练习过程中发现的不认识的单词俚语或者语法现象。 -->
+
+

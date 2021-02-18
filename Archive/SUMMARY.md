@@ -2,6 +2,8 @@
 
 * [Eureka](README.md)
 * [英语学习安排](English.md)
+* [理财投资]()
+	* [理财投资务必牢记初心](invest/principle.md)
 * [技术支持]()
 	* [Google Hacking语法](tech/google_hacking.md)
 	* [搭建愉快服务器](tech/vps.md)

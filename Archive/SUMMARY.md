@@ -5,6 +5,7 @@
 * [理财投资]()
 	* [理财投资务必牢记初心](invest/principle.md)
 	* [复利的力量](invest/compound-interest.md)
+	* [书单](invest/book.md)
 * [技术支持]()
 	* [Google Hacking语法](tech/google_hacking.md)
 	* [搭建愉快服务器](tech/vps.md)

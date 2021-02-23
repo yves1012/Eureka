@@ -10,6 +10,8 @@
 	* [书单](invest/book.md)
 	* [家庭资产如何配备](invest/family-assets.md)
 	* [一套财务自由方案](invest/retire.md)
+	* [千万别听销售经理瞎忽悠](invest/do-not-be-fooled.md)
+	* [夏普比率](invest/sharpe-ratio.md)
 * [技术支持]()
 	* [Google Hacking语法](tech/google_hacking.md)
 	* [搭建愉快服务器](tech/vps.md)

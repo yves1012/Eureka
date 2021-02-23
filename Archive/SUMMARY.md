@@ -15,3 +15,5 @@
 	* [搭建愉快服务器](tech/vps.md)
 	* [创建第一个Django应用](tech/django_create.md)
 	* [Django应用部署与监控](tech/django_deploy.md)
+* [无题]()
+	* [循序渐进便有收获](other/insist.md)

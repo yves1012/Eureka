@@ -13,6 +13,7 @@
 	* [千万别听销售经理瞎忽悠](invest/do-not-be-fooled.md)
 	* [夏普比率](invest/sharpe-ratio.md)
 	* [各行业优秀的股票和基金](invest/excellent.md)
+	* [明星基金经理](invest/manager.md)
 * [技术支持]()
 	* [Google Hacking语法](tech/google_hacking.md)
 	* [搭建愉快服务器](tech/vps.md)
